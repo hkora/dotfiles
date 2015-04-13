@@ -71,10 +71,10 @@ set ai
 set si
 
 " shiftwidth=4, set the shift width
-set sw=2 
+set sw=4 
 
 " tabstop=4, set the tab space 
-set ts=2 
+set ts=4 
 
 " auto expand tab to space
 set et
