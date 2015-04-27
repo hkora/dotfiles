@@ -9,6 +9,11 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+"For Windows
+"set rtp+=$VIM/vimfiles/bundle/vundle/
+"let path='$VIM/vimfiles/bundle'
+"call vundle#rc(path)
+
 " let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 
@@ -167,7 +172,7 @@ au FileType cs set foldlevelstart=2
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "My information
 iab xdate <c-r>=strftime("%d/%m/%y %H:%M:%S")<cr>
-iab xname Karl Hou
+iab xname Hou Ke
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
