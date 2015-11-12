@@ -128,8 +128,7 @@ set backspace=eol,start,indent
 "Bbackspace and cursor keys wrap to
 set whichwrap+=<,>,h,l
 
-"Ignore case when searching
-set ignorecase
+"Incremental searches
 set incsearch
 
 "Set magic on
