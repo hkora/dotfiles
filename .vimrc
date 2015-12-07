@@ -90,11 +90,11 @@ set ai
 " smartindent
 set si
 
-" shiftwidth=2, set the shift width
-set sw=2
+" shiftwidth=4, set the shift width
+set sw=4
 
-" tabstop=2, set the tab space
-set ts=2
+" tabstop=4, set the tab space
+set ts=4
 
 " auto expand tab to space
 set et
