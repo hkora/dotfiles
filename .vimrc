@@ -6,7 +6,12 @@
 "Get out of VI's compatible mode..
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
+
+"For Ubuntu
+set rtp+=~/.vim/bundle/Vundle.vim/
+"For OS X
+"set rtp+=~/.vim/bundle/vundle/
+"
 call vundle#rc()
 
 "For Windows
@@ -147,6 +152,9 @@ set mat=2
 
 "Highlight search things
 set hlsearch
+
+"Input font, http://input.fontbureau.com/
+set guifont=Input\ 12
 
   """"""""""""""""""""""""""""""
   " Statusline
