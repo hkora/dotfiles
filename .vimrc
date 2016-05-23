@@ -31,6 +31,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'bling/vim-airline'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'junegunn/vim-easy-align'
 Bundle 'vim-flake8'
 
 "Sets how many lines of history VIM har to remember
