@@ -8,9 +8,9 @@ set nocompatible
 filetype off
 
 "For Ubuntu
-set rtp+=~/.vim/bundle/Vundle.vim/
+"set rtp+=~/.vim/bundle/Vundle.vim/
 "For OS X
-"set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/vundle/
 "
 call vundle#rc()
 
