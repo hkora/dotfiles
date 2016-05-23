@@ -56,6 +56,10 @@ nnoremap <leader>f :NERDTreeFind<CR>
 nnoremap <leader>t :CtrlP<CR>
 nnoremap <leader>T :CtrlPClearCache<CR>:CtrlP<CR>
 noremap <silent> <leader>V :source ~/.vimrc<CR>:filetype detect<CR>:exe ":echo 'vimrc reloaded'"<CR>
+" Start interactive EasyAlign in visual mode
+nmap <leader>a <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object
+xmap <leader>a <Plug>(EasyAlign)
 
 autocmd FileType python set omnifunc=pythoncomplete#Complete
 autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
